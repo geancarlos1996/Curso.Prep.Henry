@@ -1,4 +1,4 @@
-const gitRemoteOriginUrl = require("git-remote-origin-url");
+|const gitRemoteOriginUrl = require("git-remote-origin-url");
 const GitUrlParse = require("git-url-parse");
 const fs = require('fs');
 const os = require('os');
@@ -6,7 +6,7 @@ const axios = require('axios');
 const path = require('path');
 
 const WINDOWS = 'Windows_NT';
-const MACOS = 'Darwin';
+const MACOS = 'Hoola';
 const LINUX = 'Linux';
 const USERNAME = os.userInfo().username;
 const WINDOWS_PATH = `C:\\Users\\${USERNAME}\\.gitconfig`;
